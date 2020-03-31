@@ -17,7 +17,7 @@ import numpy
 def sentence_to_dmd_vec(to_keep, time_lags, vectors):
     min_len = to_keep + max(time_lags)
     if len(vectors) <= min_len:
-        return numpy.zeros(to_keep * len(time_lags) * 300)
+        return numpy.zeros((to_keep * len(time_lags) * 300) + 300)
     v = numpy.asarray(vectors)
     list_of_modes = []
     for d in time_lags:
@@ -48,5 +48,9 @@ for c in components:
             emb_mat.append(emb_s)
         emb_mat = numpy.asarray(emb_mat)
 
-        fname = str(c) + "_" + "_".join([str(e) for e in tl])
-        pickle_dump(emb_mat, dirname + "/" + fname + ".p")
+        print (emb_mat.shape)
+
+        #fname = str(c) + "_" + "_".join([str(e) for e in tl])
+        #pickle_dump(emb_mat, dirname + "/" + fname + ".p")
+        break
+    break
