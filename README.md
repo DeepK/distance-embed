@@ -14,8 +14,8 @@
 ## To run all experiments
 - go to /lib/shell
 - run, in order:
-    - calc_wmd_dist.sh
-    - calc_all_dist.sh
-    - calc_all_embeddings.sh
-    - calc_all_dct.sh, calc_all_eigensent.sh, calc_all_powermeans.sh, calc_all_sbert.sh can be run in any order
-    - evaluate_all.sh
+    - `calc_wmd_dist.sh`
+    - `calc_all_dist.sh`
+    - `calc_all_embeddings.sh`
+    - `calc_all_dct.sh`, `calc_all_eigensent.sh`, `calc_all_powermeans.sh`, `calc_all_sbert.sh` can be run in any order
+    - `evaluate_all.sh`
