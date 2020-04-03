@@ -6,6 +6,9 @@ sudo apt install python2.7 python-pip
 sudo apt install python3-pip
 sudo apt-get install swig
 
+virtualenv distemb
+source distemb/bin/activate
+
 cd lib
 pip2 install -r requirements.txt
 pip3 install -r requirements.txt
