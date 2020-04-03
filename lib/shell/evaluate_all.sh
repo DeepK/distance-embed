@@ -78,3 +78,12 @@ python evaluate_baselines.py r8 powermeans >> ../../../evaluations/r8-powermeans
 python evaluate_baselines.py sst5 powermeans >> ../../../evaluations/sst5-powermeans.txt
 python evaluate_baselines.py twitter powermeans >> ../../../evaluations/twitter-powermeans.txt
 python evaluate_baselines.py 20ng powermeans >> ../../../evaluations/20ng-powermeans.txt
+
+python evaluate_baselines.py amazon sbert >> ../../../evaluations/amazon-sbert.txt
+python evaluate_baselines.py bbcsport sbert >> ../../../evaluations/bbcsport-sbert.txt
+python evaluate_baselines.py classic sbert >> ../../../evaluations/classic-sbert.txt
+python evaluate_baselines.py ohsumed sbert >> ../../../evaluations/ohsumed-sbert.txt
+python evaluate_baselines.py r8 sbert >> ../../../evaluations/r8-sbert.txt
+python evaluate_baselines.py sst5 sbert >> ../../../evaluations/sst5-sbert.txt
+python evaluate_baselines.py twitter sbert >> ../../../evaluations/twitter-sbert.txt
+python evaluate_baselines.py 20ng sbert >> ../../../evaluations/20ng-sbert.txt
