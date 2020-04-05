@@ -98,3 +98,10 @@ if __name__ == "__main__":
         print (X_test[0], Y_test[0])
         print (len(X_train), len(Y_train))
         print (len(X_test), len(Y_test))
+
+        lengths = []
+        for s in X_train + X_test:
+            lengths.append(len(s.split(" ")))
+
+        print (numpy.max(lengths))
+        print (numpy.mean(lengths))
