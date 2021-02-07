@@ -1,3 +1,19 @@
+Code the paper titled `Unsupervised Sentence-embeddings by Manifold Approximation and Projection` published at EACL 2021 (arxiv link) by Subhradeep Kayal.
+
+<img src="distance-embed.png" width="800"/>
+
+## Citation
+If you find this paper useful for your research, please consider citing the paper:
+
+```
+@inproceedings{kayal2021eacl,
+  title={Unsupervised Sentence-embeddings by Manifold Approximation and Projection},
+  author={Kayal, Subhradeep},
+  booktitle={Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics, {EACL} 2021},
+  year={2021}
+}
+```
+
 ## Installing dependencies
 - all the dependencies have been explicitly mentioned in `requirements.txt`
 - to prepare the environment, run `prepare-server.sh`
