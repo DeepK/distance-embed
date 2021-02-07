@@ -1,6 +1,6 @@
 Code the paper titled `Unsupervised Sentence-embeddings by Manifold Approximation and Projection` published at EACL 2021 (arxiv link) by Subhradeep Kayal.
 
-<img src="distance-embed.png" width="800"/>
+<img src="distance-embed.png" width="400"/>
 
 ## Citation
 If you find this paper useful for your research, please consider citing the paper:
