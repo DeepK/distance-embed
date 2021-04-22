@@ -6,11 +6,16 @@ Code the paper titled `Unsupervised Sentence-embeddings by Manifold Approximatio
 If you find this paper useful for your research, please consider citing the paper:
 
 ```
-@inproceedings{kayal2021eacl,
-  title={Unsupervised Sentence-embeddings by Manifold Approximation and Projection},
-  author={Kayal, Subhradeep},
-  booktitle={Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics, {EACL} 2021},
-  year={2021}
+@inproceedings{kayal-2021-unsupervised,
+    title = "Unsupervised Sentence-embeddings by Manifold Approximation and Projection",
+    author = "Kayal, Subhradeep",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+    month = apr,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.eacl-main.1",
+    pages = "1--11"
 }
 ```
 
